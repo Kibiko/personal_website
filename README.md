@@ -16,7 +16,7 @@ I use the [React](https://react.dev/) library with [React Bootstrap](https://rea
 
 ## Wireframe
 
-![wireframe](/assets/images/personal_website_wireframe.png)
+![wireframe](/public/wireframe.png)
 
 ## Curent Status
 

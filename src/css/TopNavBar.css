@@ -1,13 +1,16 @@
 .custom-navbar{
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 30% 70%;
     padding: 10px;
     padding-left: 30px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #28282B;
     font-size: 16px;
+    position: fixed; 
+    top: 0;
+    z-index: 2;
 }
 
 .name-cv{
@@ -31,7 +34,7 @@
     cursor:pointer;
     position:relative;
     padding:10px 20px;
-    background:black;
+    background:#28282B;
     font-size:28px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -78,9 +81,6 @@
     margin: 20px;
     color: white;
     text-decoration: none;
-}
-
-.links a {
     padding: .5em .8em;
     color: white;
     position: relative;
@@ -106,7 +106,7 @@
     transform: translate(-100%, 50%);
 }
   
-.links a:after {
+.links a::after {
     content: '';
     left: 0;
     bottom: 0;

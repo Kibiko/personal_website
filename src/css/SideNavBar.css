@@ -1,0 +1,15 @@
+.sidebar{
+    background-color: #28282B;
+    height: 100vh;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+.social-container{
+    margin: 10px;
+    font-size: 30px;
+    color: white; 
+    bottom: 0;
+    position: absolute;
+}

@@ -12,7 +12,7 @@ function App() {
       <MediaQuery minWidth={1200}>
         <HomepageContainer/>
       </MediaQuery>
-      <MediaQuery maxWidth={1200} >
+      <MediaQuery maxWidth={1199} >
         <p>Not completed</p>
       </MediaQuery>
     </div>
