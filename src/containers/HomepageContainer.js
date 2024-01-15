@@ -1,6 +1,7 @@
 import SideNavBar from "../components/SideNavBar";
 import TopNavBar from "../components/TopNavBar";
 import '../css/HomepageContainer.css'
+import IntroductionContainer from "./IntroductionContainer";
 
 const HomepageContainer = () => {
 
@@ -8,6 +9,7 @@ const HomepageContainer = () => {
         <div className="homepage">
             <TopNavBar/>
             <SideNavBar/>
+            <IntroductionContainer/>
         </div>
     )
 }

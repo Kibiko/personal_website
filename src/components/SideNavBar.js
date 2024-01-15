@@ -7,8 +7,12 @@ const SideNavBar = () => {
     return(
         <div className='sidebar'>
             <div className='social-container'>
-                <SocialIcon url="www.linkedin.com" href="https://www.linkedin.com/in/kevinjunchan/"/>
-                <SocialIcon url="www.github.com"/>
+                <div className='social-icon-container'>
+                    <SocialIcon className='social-icon' bgColor="black" style={{ height: 80, width: 80, margin: 10 }} url="www.linkedin.com" href="https://www.linkedin.com/in/kevinjunchan"/>
+                </div>
+                <div className='social-icon-container'>
+                    <SocialIcon className='social-icon' bgColor="black" style={{ height: 80, width: 80, margin: 10  }} url="www.github.com" href="https://github.com/Kibiko"/>
+                </div>
             </div>
         </div>
     )
