@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import { Button } from 'react-bootstrap';
 import HomepageContainer from './containers/HomepageContainer';
 import './App.css';
 import MediaQuery from 'react-responsive'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

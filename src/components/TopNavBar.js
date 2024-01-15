@@ -8,7 +8,7 @@ const TopNavBar = () => {
                 <h1> K. CHAN</h1>
 
                 <nav className="">
-                    <a className="animate-cv" href="">CV</a>
+                    <a className="animate-cv" href="Kevin_Chan_Resume.pdf" download>CV</a>
                 </nav>
             </div>
             <div className="links">

@@ -1,8 +1,9 @@
 .introduction-container{
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 130px;
+    padding-top: 200px;
+    margin-bottom: 250px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 10% 30% 60%;
     z-index: 1;
     height: 500px;
 }

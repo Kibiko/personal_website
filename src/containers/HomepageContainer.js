@@ -1,3 +1,4 @@
+import AboutMe from "../components/AboutMe";
 import SideNavBar from "../components/SideNavBar";
 import TopNavBar from "../components/TopNavBar";
 import '../css/HomepageContainer.css'
@@ -10,6 +11,8 @@ const HomepageContainer = () => {
             <TopNavBar/>
             <SideNavBar/>
             <IntroductionContainer/>
+            <div class="custom-hr"></div>
+            <AboutMe/>
         </div>
     )
 }
