@@ -14,7 +14,9 @@ function App() {
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={1199} >
-        <p>In Progress. Please view as desktop!</p>
+        <div className='mobile-site'>
+          <p>In Progress. Please view as desktop!</p>
+        </div>
       </MediaQuery>
     </div>
   );

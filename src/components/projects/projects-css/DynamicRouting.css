@@ -24,18 +24,18 @@
     object-position: 100% 0%;
 }
 
-.restaurant-container .over-image:hover{
+.routing-container .over-image:hover{
     opacity: 0;
     transition: 0.4s;
 }
 
-.restaurant-container{
+.routing-container{
     position: relative;
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
-.restaurant-container p{
+.routing-container p{
     font-size: 1.2rem;
     color: white;
     margin-top: 50px;
@@ -43,15 +43,15 @@
     margin-right: 5rem;
 }
 
-.restaurant-container a{
+.routing-container a{
     color: white;
 }
 
-.restaurant-container a:hover{
+.routing-container a:hover{
     color: black;
 }
 
-.restaurant-paragraph{
+.routing-paragraph{
     display: grid;
     grid-template-rows: 1f 1f;
 }

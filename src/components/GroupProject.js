@@ -2,6 +2,7 @@ import { Tabs, Tab } from "react-bootstrap";
 import '../css/GroupProject.css'
 import YoutubeEmbed from "./YoutubeEmbed";
 import RestaurantRecommender from "./projects/RestaurantRecommender";
+import DynamicRouting from "./projects/DynamicRouting";
 
 const GroupProjects = () => {
     return(
@@ -12,7 +13,7 @@ const GroupProjects = () => {
                     <RestaurantRecommender/>
                 </Tab>
                 <Tab eventKey="dynamic routing" title="Dynamic Routing" className="tab">
-                    Tab content for Profile
+                    <DynamicRouting/>
                 </Tab>
                 <Tab eventKey="mental health" title="AI Mental Health App" className="tab">
                     Tab content for Contact
