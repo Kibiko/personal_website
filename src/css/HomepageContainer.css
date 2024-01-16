@@ -13,3 +13,16 @@
 .main-body{
     margin-left: 100px;
 }
+
+.projects-title{
+    color: white;
+    border: solid;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}

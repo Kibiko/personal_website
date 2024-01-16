@@ -23,9 +23,9 @@ const AboutMe = forwardRef(({ },ref) => {
       >
         {buttonText}
       </button>
+      <h1 className='about-me-title'>The Curiosity-Driven Life - Elizabeth Gilbert </h1>
       <Collapse in={open}>
         <div id="about-me">
-          <h1 className='about-me-title'>The Curiosity-Driven Life - Elizabeth Gilbert </h1>
           <div className='about-me-paragraph'>
             <p>Continuous learning is at the core of my journey through life. Having completed an MSci in Astrophysics at Queen Mary University of London (QMUL), I strived to learn more by continuing into a PhD. This opportunity has taken me to many different countries, meeting a plethora of new people and new ideas, sparking my curiosity and maintaining my ability to never stop learning.</p>
 

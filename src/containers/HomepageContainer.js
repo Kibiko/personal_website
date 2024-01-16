@@ -9,6 +9,7 @@ import IntroductionContainer from "./IntroductionContainer";
 const HomepageContainer = () => {
 
     const aboutMeRef = useRef();
+    const techStackRef = useRef();
 
     const scrollToAboutMe = () => {
         if (aboutMeRef.current) {
@@ -16,16 +17,30 @@ const HomepageContainer = () => {
         }
     };
 
+    const scrollToTechStack = () => {
+        if (techStackRef.current) {
+            techStackRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const scrollToProjects = () => {
+        const projects = document.querySelector('.projects-title')
+        projects.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <div className="homepage">
-            <TopNavBar scrollToAboutMe={scrollToAboutMe}/>
+            <TopNavBar scrollToAboutMe={scrollToAboutMe} scrollToTechStack={scrollToTechStack} scrollToProjects={scrollToProjects}/>
             <SideNavBar/>
             <div className="main-body">
                 <IntroductionContainer/>
                 <div className="custom-hr"></div>
                 <AboutMe ref={aboutMeRef}/>
                 <div className="custom-hr"></div>
-                <TechStack/>
+                <TechStack ref={techStackRef}/>
+                <div className="custom-hr"></div>
+                <h1 className='projects-title'>Projects</h1>
+
             </div>
         </div>
     )

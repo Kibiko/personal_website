@@ -1,10 +1,20 @@
 import '../css/TopNavBar.css'
 
-const TopNavBar = ({scrollToAboutMe}) => {
+const TopNavBar = ({scrollToAboutMe, scrollToTechStack, scrollToProjects}) => {
 
     const handleAboutClick = (event) => {
         event.preventDefault();  // Prevent the default anchor link behavior
         scrollToAboutMe();
+    };
+
+    const handleTechClick = (event) => {
+        event.preventDefault();  
+        scrollToTechStack();
+    };
+
+    const handleProjectsClick = (event) => {
+        event.preventDefault();  
+        scrollToProjects();
     };
       
     return(
@@ -18,13 +28,13 @@ const TopNavBar = ({scrollToAboutMe}) => {
             </div>
             <div className="links">
                 <nav>
-                    <a href="#" onClick={handleAboutClick}>ABOUT</a>
+                    <a href="about-me" onClick={handleAboutClick}>ABOUT</a>
                 </nav>
                 <nav >
-                    <a href="">TECH STACK</a>
+                    <a href="tech-stack" onClick={handleTechClick}>TECH STACK</a>
                 </nav>
                 <nav >
-                    <a href="">PROJECTS</a>
+                    <a href="projects" onClick={handleProjectsClick}>PROJECTS</a>
                 </nav>
                 <nav >
                     <a href="">CONTACT</a>

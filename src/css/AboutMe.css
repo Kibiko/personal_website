@@ -9,7 +9,8 @@
     margin-bottom: 20px;
 }
 
-#about-me h1{
+.about-me-title{
+    color: white;
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
     margin-bottom: 15px;

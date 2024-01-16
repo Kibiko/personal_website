@@ -1,7 +1,7 @@
 .tech-stack-container{
     margin-top: 20px;
     margin-left: 100px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
 }
 
 .tech-header{
@@ -11,5 +11,105 @@
     padding: 14px 28px;
     font-size: 16px;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
+
+.grid-container {
+    background: inherit;
+  }
+  
+@supports(display: grid) {
+  
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+        "header header header"
+        "title title footer"
+        "main main main";
+        @media screen and (max-width: 500px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1fr auto 1fr;
+        grid-template-areas: 
+            "header"
+            "title"
+            "main"
+            "footer";
+        }
+    }
+
+    .grid-item {
+        background: inherit;
+        padding: 3.5em 1em;
+        font-size: 1em;
+        font-weight: 700;
+        grid-area: main;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .items {
+        position: relative;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        width: 85%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        transition: all 0.2s;
+        transform: scale(0.98);
+        will-change: transform;
+        user-select: none;
+        cursor: pointer;
+
+        scrollbar-width: thin; 
+        scrollbar-color: #333333 #f5f5f5;
+
+        &::-webkit-scrollbar {
+            width: 10px; /* WebKit */
+            height: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: inherit; /* WebKit */
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #333333; /* WebKit */
+            border-radius: 10px; /* WebKit */
+            border: 2px solid #f5f5f5; /* WebKit */
+        }
+
+        &:hover {
+            &::-webkit-scrollbar-thumb {
+                background-color: #555555; /* Change color on hover */
+            }
+        }
+    }
+
+    .items.active {
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        transform: scale(1);
+    }
+
+    .item {
+        display: inline-block;
+        box-shadow: 4px 4px 20px 0 rgba(0,0,0,.5);
+        border: black;
+        border-style: solid;
+        background: white;
+        margin: 0em 1em;
+        @media screen and (max-width: 500px) {
+        min-height: 200px;
+        min-width: 200px;
+    }
+    }
+
+    .item img{
+        min-height: 40px;
+    }
+}
+  
