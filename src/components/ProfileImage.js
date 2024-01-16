@@ -5,7 +5,7 @@ const ProfileImage = () => {
     
     return(
         <div className='profile-images'>
-            <Carousel fade interval={4000}>
+            <Carousel fade interval={4000} wrap={false}>
                     <Carousel.Item>
                         <img src={'profile5.png'} alt="" className={"profile-image"}/>
                         <Carousel.Caption>

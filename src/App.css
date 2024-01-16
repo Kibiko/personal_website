@@ -10,6 +10,13 @@
   }
 }
 
+.background{
+  background-image: url("/public/wallpaper2.jpg");
+  background-size: cover;
+  background-attachment: fixed; 
+  height: 100%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

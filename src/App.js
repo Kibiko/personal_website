@@ -7,12 +7,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <div>
+    <div className="background">
       <MediaQuery minWidth={1200}>
-        <HomepageContainer/>
+        <div>
+          <HomepageContainer/>
+        </div>
       </MediaQuery>
       <MediaQuery maxWidth={1199} >
-        <p>Not completed</p>
+        <p>In Progress. Please view as desktop!</p>
       </MediaQuery>
     </div>
   );

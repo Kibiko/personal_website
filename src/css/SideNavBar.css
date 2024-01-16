@@ -1,6 +1,6 @@
 .sidebar{
     background-color: #28282B;
-    height: 100vh;
+    height: 100%;
     width: 100px;
     position: fixed;
     z-index: 2;
@@ -9,7 +9,7 @@
 
 .social-container{
     bottom: 0;
-    position: absolute;
+    position: fixed;
 }
 
 .social-icon-container:hover{
@@ -19,5 +19,5 @@
 }
 
 .social-icon{
-    margin: 100px;
+    margin: 10px;
 }
