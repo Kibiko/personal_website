@@ -28,16 +28,16 @@ const TopNavBar = ({scrollToAboutMe, scrollToTechStack, scrollToProjects}) => {
             </div>
             <div className="links">
                 <nav>
-                    <a href="about-me" onClick={handleAboutClick}>ABOUT</a>
+                    <a href="about-me" onClick={handleAboutClick}>About</a>
                 </nav>
                 <nav >
-                    <a href="tech-stack" onClick={handleTechClick}>TECH STACK</a>
+                    <a href="tech-stack" onClick={handleTechClick}>Tech Stack</a>
                 </nav>
                 <nav >
-                    <a href="projects" onClick={handleProjectsClick}>PROJECTS</a>
+                    <a href="projects" onClick={handleProjectsClick}>Projects</a>
                 </nav>
                 <nav >
-                    <a href="">CONTACT</a>
+                    <a href="">Contact</a>
                 </nav>
             </div>
         </div>

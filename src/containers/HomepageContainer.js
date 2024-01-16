@@ -5,6 +5,7 @@ import TechStack from "../components/TechStack";
 import TopNavBar from "../components/TopNavBar";
 import '../css/HomepageContainer.css'
 import IntroductionContainer from "./IntroductionContainer";
+import GroupProjects from "../components/GroupProject";
 
 const HomepageContainer = () => {
 
@@ -13,19 +14,19 @@ const HomepageContainer = () => {
 
     const scrollToAboutMe = () => {
         if (aboutMeRef.current) {
-            aboutMeRef.current.scrollIntoView({ behavior: 'smooth' });
+            aboutMeRef.current.scrollIntoView({ behavior: 'smooth', block: "center"});
         }
     };
 
     const scrollToTechStack = () => {
         if (techStackRef.current) {
-            techStackRef.current.scrollIntoView({ behavior: 'smooth' });
+            techStackRef.current.scrollIntoView({ behavior: 'smooth', block: "center" });
         }
     };
 
     const scrollToProjects = () => {
         const projects = document.querySelector('.projects-title')
-        projects.scrollIntoView({ behavior: 'smooth' });
+        projects.scrollIntoView({ behavior: 'smooth'});
     };
 
     return (
@@ -38,9 +39,9 @@ const HomepageContainer = () => {
                 <AboutMe ref={aboutMeRef}/>
                 <div className="custom-hr"></div>
                 <TechStack ref={techStackRef}/>
-                <div className="custom-hr"></div>
+                {/* <div className="custom-hr"></div> */}
                 <h1 className='projects-title'>Projects</h1>
-
+                <GroupProjects/>
             </div>
         </div>
     )

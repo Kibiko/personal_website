@@ -1,6 +1,7 @@
 import { useState, forwardRef } from 'react';
 import Collapse from 'react-bootstrap/Collapse';
 import '../css/AboutMe.css'
+import YoutubeEmbed from './YoutubeEmbed';
 
 const AboutMe = forwardRef(({ },ref) => {
 
@@ -9,6 +10,7 @@ const AboutMe = forwardRef(({ },ref) => {
     
     return (
     <div className='about-me-container' ref={ref}>
+      <h1 className='about-me-title'>"The Curiosity-Driven Life" - Elizabeth Gilbert  </h1>
       <button
         className='button'
         onClick={() => {
@@ -23,7 +25,6 @@ const AboutMe = forwardRef(({ },ref) => {
       >
         {buttonText}
       </button>
-      <h1 className='about-me-title'>The Curiosity-Driven Life - Elizabeth Gilbert </h1>
       <Collapse in={open}>
         <div id="about-me">
           <div className='about-me-paragraph'>
