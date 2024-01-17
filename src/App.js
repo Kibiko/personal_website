@@ -8,12 +8,12 @@ function App() {
 
   return (
     <div className="background">
-      <MediaQuery minWidth={1200}>
+      <MediaQuery minWidth={1060}>
         <div>
           <HomepageContainer/>
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1199} >
+      <MediaQuery maxWidth={1059} >
         <div className='mobile-site'>
           <p>In Progress. Please view as desktop!</p>
         </div>
