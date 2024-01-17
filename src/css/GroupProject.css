@@ -2,7 +2,7 @@
     margin-left: 100px;
     /* margin-bottom: 20px; */
     
-    width: 80%;
+    width: 80vw;
 }
 
 .group-title{
@@ -10,6 +10,7 @@
     font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .tabs {

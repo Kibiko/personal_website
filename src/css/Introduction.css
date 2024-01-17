@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .container p {
-  text-shadow: 5px 5px 1px rgba(0, 0, 0, .8), 0 0 3px rgba(0, 0, 0, 0.3);
+  /* text-shadow: 5px 5px 1px rgba(0, 0, 0, .8), 0 0 3px rgba(0, 0, 0, 0.3); */
   font-size: 3.0rem;
   margin-left: 0rem;
 }
@@ -20,8 +20,9 @@
 .animation {
   height:100%;
   overflow:hidden;
-  margin-left: 5rem;
-  text-shadow: 5px 5px 1px rgba(0, 0, 0, .8), 0 0 3px rgba(0, 0, 0, 0.3);
+  margin-left: 4rem;
+  margin-right: 8rem;
+  /* text-shadow: 5px 5px 1px rgba(0, 0, 0, .8), 0 0 3px rgba(0, 0, 0, 0.3); */
   /* justify-content: center; */
 }
 

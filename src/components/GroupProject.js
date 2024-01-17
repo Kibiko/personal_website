@@ -3,6 +3,7 @@ import '../css/GroupProject.css'
 import YoutubeEmbed from "./YoutubeEmbed";
 import RestaurantRecommender from "./projects/RestaurantRecommender";
 import DynamicRouting from "./projects/DynamicRouting";
+import MentalHealthApp from "./projects/MentalHealthApp";
 
 const GroupProjects = () => {
     return(
@@ -16,7 +17,7 @@ const GroupProjects = () => {
                     <DynamicRouting/>
                 </Tab>
                 <Tab eventKey="mental health" title="AI Mental Health App" className="tab">
-                    Tab content for Contact
+                    <MentalHealthApp/>
                 </Tab>
             </Tabs>
         </div>

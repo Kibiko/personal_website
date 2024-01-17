@@ -38,7 +38,7 @@
 .restaurant-container p{
     font-size: 1.2rem;
     color: white;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-left: 5rem;
     margin-right: 5rem;
 }
@@ -63,9 +63,18 @@
 .code-links a{
     margin: 50px;
     font-size: 1.2rem;
-    text-decoration: none;
+    color: white;
+    border: solid;
+    background-color: inherit;
+    padding: 14px 28px;
+    cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .code-links a:hover{
-    text-decoration: underline;
+    color: black;
+    background-color: white;
+    border-color: white;
+    text-decoration: none;
+    transition: 0.5s;
 }
