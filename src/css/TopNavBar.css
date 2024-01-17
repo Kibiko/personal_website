@@ -19,8 +19,10 @@
     align-items: center;
 }
 
-.name-cv h1{
-    color: white;
+.name-cv img{
+    margin-left: -20px;
+    width: 80px;
+    height: 80px;
 }
 
 .name-cv a{

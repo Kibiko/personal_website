@@ -2,7 +2,6 @@ import './projects-css/DynamicRouting.css'
 import Modal from '@mui/material/Modal';
 import { useState } from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 
 const DynamicRouting = () => {
 
@@ -20,8 +19,8 @@ const DynamicRouting = () => {
         <div>
             <div className='routing-container'>
                 <div className='overlay-pictures'>
-                    <img className='under-image' src="dynamic-routing-screen.png"/>
-                    <img className='over-image' src="logistics-logo.png"/>
+                    <img className='routing-under-image' src="dynamic-routing-screen.png"/>
+                    <img className='routing-over-image' src="logistics-logo.png"/>
                 </div>
                 <div className='routing-paragraph'>
                     <div className='paragraphs'>

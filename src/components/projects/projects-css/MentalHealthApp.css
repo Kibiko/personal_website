@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.over-image{
+.mental-over-image{
     transition: 1s;
     margin: 20px;
     width: 100%;
@@ -13,7 +13,7 @@
     object-position: 50% 50%;
 }
 
-.under-image{
+.mental-under-image{
     transition: 1s;
     margin: 20px;
     width: 40%;
@@ -21,10 +21,10 @@
     object-fit: cover;
     position: absolute;
     z-index: 4;
-    object-position: 100% 0%;
+    object-position: 50% 50%;
 }
 
-.mental-container .over-image:hover{
+.mental-container .mental-over-image:hover{
     opacity: 0;
     transition: 0.4s;
 }

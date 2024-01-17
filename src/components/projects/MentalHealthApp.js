@@ -1,25 +1,50 @@
 import './projects-css/MentalHealthApp.css'
+import Modal from '@mui/material/Modal';
+import { useState } from 'react';
+import Box from '@mui/material/Box';
 
 const MentalHealthApp = () => {
+
+    const [openModal, setOpenModal] = useState(false);
+
+    const handleOpenModal = () => {
+      setOpenModal(true);
+    };
+  
+    const handleCloseModal = () => {
+      setOpenModal(false);
+    };
+
 
     return (
         <div>
             <div className='mental-container'>
                 <div className='overlay-pictures'>
-                    <img className='under-image' src=""/>
-                    <img className='over-image' src=""/>
+                    <img className='mental-under-image' src="mind_mentor_screen.png"/>
+                    <img className='mental-over-image' src="mind_mentor_logo.png"/>
                 </div>
                 <div className='mental-paragraph'>
                     <div className='paragraphs'>
-                        <p>Using a restaurant recommendation API built by fellow bootcamp members, we designed and built a front end webpage using React to fetch and filter the restaurants. We incorporated the use of an <a href="https://www.w3schools.com/html/html_images_imagemap.asp" target="_blank" rel="noopener noreferrer">Image Map</a> to filter the restaurants by London Boroughs with additional choices to sort by price and dietary requirements, providing images of typical dishes expected.</p>
-                        <p>The back end API is Dockerised, and along with the PostgreSQL database and front end, all are deployed on Render.com, as shown on <a href="https://www.linkedin.com/posts/kevinjunchan_to-anyone-fresh-out-of-a-software-engineering-activity-7133783505502642176-mOif?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+                        <p><a href="https://www.linkedin.com/posts/kevinjunchan_hack-for-change-2023-winners-activity-7130873832390692864-c38C?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">🎉 Hack for Change 2023 - People's Champion Award Winners! 🎉</a></p>
+                        <p>In the hackathon to improve inclusivity and diversity at the workplace, we created a full stack mobile app to provide the first point of contact in supporting mental health. Integrating <a href="https://platform.openai.com/docs/guides/text-generation" target="_blank" rel="noopener noreferrer">OpenAI API </a>and tuning ChatGPT 3.5 Turbo, the application provides a chatbot that provides advice that aligns with the <a href="https://www.nice.org.uk/guidance">National Institute for Health and Care Excellence (NICE)</a> guidelines. Resources are integrated along with a mood calendar and emergency contact numbers.</p>
+                        <p>We utilised React Native and Spring Boot for the front end and back end respectively. All messages and information are encrypted in the back end database with the AES-256 algorithm.</p>
                     </div>
                     <div className='code-links'>
-                        <a href="" target="_blank" rel="noopener noreferrer">CODE</a>
-                        <a href="" target="_blank" rel="noopener noreferrer">LIVE SITE</a>
+                        <a href="https://github.com/sarahoco014/Mind_Mentor_Frontend" target="_blank" rel="noopener noreferrer">CODE</a>
+                        <button className="demo-button" onClick={handleOpenModal}>DEMO</button>
                     </div>
                 </div>
             </div>
+            <Modal
+                open={openModal}
+                onClose={handleCloseModal}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+                >
+                <Box className="demo-modal">
+                   <video src="mind_mentor_demo.mp4" width="100%" height="100%" controls></video> 
+                </Box>
+            </Modal> 
         </div>
     )
 }

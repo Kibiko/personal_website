@@ -20,7 +20,7 @@ const TopNavBar = ({scrollToAboutMe, scrollToTechStack, scrollToProjects}) => {
     return(
         <div className="custom-navbar">
             <div className="name-cv">
-                <h1> K. CHAN</h1>
+                <img src='android-chrome-512x512.png'/>
 
                 <nav className="">
                     <a className="animate-cv" href="Kevin_Chan_Resume.pdf" download>CV</a>
