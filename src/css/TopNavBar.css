@@ -122,4 +122,39 @@
     transform: translate(0,0);
     opacity: 1;
 }
+
+.contacts {
+  
+}
+  
+  /* Tooltip text */
+.contacts .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(20,20,20,1);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    border-color: white;
+    border: solid;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    top: 100%;
+    left: 50%;
+    margin-left: -200px; 
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.contacts:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext ul{
+    font-size: 1rem;
+}
         

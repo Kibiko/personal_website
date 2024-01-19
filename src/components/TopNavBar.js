@@ -37,7 +37,14 @@ const TopNavBar = ({scrollToAboutMe, scrollToTechStack, scrollToProjects}) => {
                     <a href="projects" onClick={handleProjectsClick}>Projects</a>
                 </nav>
                 <nav >
-                    <a href="javascript:void(0);" className='contacts'>Contact</a>
+                    <a href="javascript:void(0);" className='contacts'>Contact
+                    <span className="tooltiptext">
+                        <ul>
+                            <li>kevinjunchan@gmail.com</li>
+                            <li>+447850018719</li>
+                        </ul>
+                    </span>
+                    </a>
                 </nav>
             </div>
         </div>
