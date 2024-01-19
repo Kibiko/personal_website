@@ -1,7 +1,6 @@
 .group-container{
     margin-left: 100px;
-    /* margin-bottom: 20px; */
-   
+    margin-bottom: 20px;
     width: 80%;
 }
 
@@ -34,4 +33,5 @@
     border:solid;
     border-color: white;
     /* height: auto; */
+    background-color: rgba(0,0,0,0.5);
 }

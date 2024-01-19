@@ -79,7 +79,7 @@
     margin-right: 30px;
 }
 
-.links a{
+.links a, p{
     margin: 20px;
     color: white;
     text-decoration: none;
@@ -90,7 +90,7 @@
 }
 
 .links a::before,
-.links a::after {
+.links a::after{
     content: '';
     height: 14px;
     width: 14px;
@@ -122,5 +122,4 @@
     transform: translate(0,0);
     opacity: 1;
 }
-  
         

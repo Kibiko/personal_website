@@ -16,7 +16,7 @@ const RestaurantRecommender = () => {
                     </div>
                     <div className='code-links'>
                         <a href="https://github.com/Kibiko/Restaurant_frontend" target="_blank" rel="noopener noreferrer">CODE</a>
-                        <a href="https://restaurant-recommender-web-page.onrender.com/" target="_blank" rel="noopener noreferrer">LIVE SITE</a>
+                        <a href="https://restaurant-recommender-web-page.onrender.com/" target="_blank" rel="noopener noreferrer">LIVE</a>
                     </div>
                 </div>
             </div>

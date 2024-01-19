@@ -6,6 +6,7 @@ import TopNavBar from "../components/TopNavBar";
 import '../css/HomepageContainer.css'
 import IntroductionContainer from "./IntroductionContainer";
 import GroupProjects from "../components/GroupProject";
+import SoloProjects from "../components/SoloProject";
 
 const HomepageContainer = () => {
 
@@ -42,6 +43,7 @@ const HomepageContainer = () => {
                 {/* <div className="custom-hr"></div> */}
                 <h1 className='projects-title'>Projects</h1>
                 <GroupProjects/>
+                <SoloProjects/>
             </div>
         </div>
     )

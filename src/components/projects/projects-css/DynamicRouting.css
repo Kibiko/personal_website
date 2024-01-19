@@ -75,8 +75,8 @@
     color: black;
     background-color: white;
     border-color: white;
-    padding: 14px 28px;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .demo-button{
@@ -95,7 +95,7 @@
     background-color: white;
     border-color: white;
     transition: 0.5s;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .demo-modal{
