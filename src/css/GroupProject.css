@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'argent-cf';
+    src: url('/public/argent-cf.otf');
+  }
+  
+
 .group-container{
     margin-left: 100px;
     margin-bottom: 20px;
@@ -7,7 +13,7 @@
 .group-title{
     color: white;
     font-size: 1.5rem;
-    font-family: 'Playfair Display', serif;
+    font-family: argent-cf;
     margin-bottom: 15px;
     text-align: center;
 }

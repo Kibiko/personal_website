@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'argent-cf';
+    src: url('/public/argent-cf.otf');
+  }
+
 .custom-navbar{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -77,7 +82,8 @@
     font-size: 25px;
     justify-content: end;
     margin-right: 30px;
-    font-family: 'Playfair Display', serif; 
+    /* font-family: 'Playfair Display', serif;  */
+    font-family: argent-cf;
 
 }
 

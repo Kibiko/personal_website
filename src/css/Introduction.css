@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@font-face {
+  font-family: 'argent-cf';
+  src: url('/public/argent-cf.otf');
+}
 
 .container p {
   /* text-shadow: 5px 5px 1px rgba(0, 0, 0, .8), 0 0 3px rgba(0, 0, 0, 0.3); */
@@ -8,7 +12,7 @@
 }
 .container {
   color: #e5e5e5;
-  font-size: 2.3rem;
+  font-size: 2.8rem;
   font-family: 'Poppins', sans-serif;
   /* text-transform: uppercase; */
   display: grid;
@@ -44,14 +48,18 @@
   /* text-decoration: underline; */
   border-style: solid;
   box-shadow: 4px 4px 20px 0 rgba(0,0,0,.5);
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-shadow: 5px 5px 1px rgba(0, 0, 0, .8), 0 0 3px rgba(0, 0, 0, 0.3);
+  font-family: argent-cf;
 }
 .second div {
   /* background-color:#CD921E; */
+  font-family: argent-cf;
+  margin-top: 1.8rem;
 }
 .third div {
   /* background-color:#c10528; */
+  font-family: argent-cf;
 }
 
 @keyframes text-animation {
