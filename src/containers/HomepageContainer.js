@@ -3,7 +3,7 @@ import AboutMe from "../components/AboutMe";
 import SideNavBar from "../components/SideNavBar";
 import TechStack from "../components/TechStack";
 import TopNavBar from "../components/TopNavBar";
-import '../css/HomepageContainer.css'
+import '../css/desktop-css/HomepageContainer.css'
 import IntroductionContainer from "./IntroductionContainer";
 import GroupProjects from "../components/GroupProject";
 import SoloProjects from "../components/SoloProject";

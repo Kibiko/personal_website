@@ -1,34 +1,34 @@
 import Carousel from 'react-bootstrap/Carousel';
-import '../css/desktop-css/ProfileImage.css'
+import '../css/mobile-css/MobileProfileImage.css'
 
-const ProfileImage = () => {
+const MobileProfileImage = () => {
     
     return(
-        <div className='profile-images'>
+        <div className='mobile-profile-images'>
             <Carousel fade interval={4000} wrap={false}>
                     <Carousel.Item>
-                        <img src={'profile5.png'} alt="" className={"profile-image"}/>
+                        <img src={'profile5.png'} alt="" className={"mobile-profile-image"}/>
                         <Carousel.Caption>
                         <h3></h3>
                         <p></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                    <img src={'profile3.png'} alt="" className={"profile-image"}/>
+                    <img src={'profile3.png'} alt="" className={"mobile-profile-image"}/>
                         <Carousel.Caption>
                         <h3></h3>
                         <p></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                    <img src={'profile2.jpeg'} alt="" className={"profile-image"}/>
+                    <img src={'profile2.jpeg'} alt="" className={"mobile-profile-image"}/>
                         <Carousel.Caption>
                         <h3></h3>
                         <p></p>
                         </Carousel.Caption>
                     </Carousel.Item>   
                     <Carousel.Item>
-                    <img src={'profile6.jpeg'} alt="" className={"profile-image"}/>
+                    <img src={'profile6.jpeg'} alt="" className={"mobile-profile-image"}/>
                         <Carousel.Caption>
                         <h3></h3>
                         <p></p>
@@ -40,4 +40,4 @@ const ProfileImage = () => {
     )
 }
 
-export default ProfileImage;
+export default MobileProfileImage;

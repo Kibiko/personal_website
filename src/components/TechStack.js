@@ -1,5 +1,5 @@
 import { useEffect, forwardRef } from 'react';
-import '../css/TechStack.css';
+import '../css/desktop-css/TechStack.css';
 
 
 const TechStack = forwardRef(({}, ref) => {

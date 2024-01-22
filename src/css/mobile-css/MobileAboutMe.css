@@ -1,0 +1,35 @@
+.mobile-about-me-container{
+    margin-left: 1rem;
+}
+
+#mobile-about-me{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.mobile-about-me-title{
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+
+#mobile-about-me p{
+    font-size: 1rem;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.mobile-about-me-paragraph{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mobile-about-me-container button{
+    color: white;
+    border: solid;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 15px;
+}

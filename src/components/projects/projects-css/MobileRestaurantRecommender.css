@@ -1,0 +1,40 @@
+.mobile-restaurant-container{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.mobile-under-image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 0%;
+    margin-bottom: 10px;
+}
+
+.mobile-restaurant-container p{
+    font-size: 1rem;
+    color: white;
+}
+
+.mobile-restaurant-container a{
+    color: white;
+}
+
+.mobile-code-links{
+    text-align: end;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile-code-links a{
+    margin: 50px;
+    font-size: 1rem;
+    color: white;
+    border: solid;
+    background-color: inherit;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+}

@@ -1,4 +1,4 @@
-import '../css/SideNavBar.css'
+import '../css/desktop-css/SideNavBar.css'
 import { SocialIcon } from 'react-social-icons/component'
 import 'react-social-icons/github'
 import 'react-social-icons/linkedin'

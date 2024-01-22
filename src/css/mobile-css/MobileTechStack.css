@@ -1,0 +1,29 @@
+.mobile-tech-stack-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 20px;
+}
+
+.mobile-tech-header{
+    color: white;
+    border: solid;
+    background-color: inherit;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.mobile-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mobile-item {
+
+}
+
+.mobile-item img{
+    min-height: 30px;
+}

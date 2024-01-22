@@ -1,4 +1,4 @@
-import '../css/TopNavBar.css'
+import '../css/desktop-css/TopNavBar.css'
 
 const TopNavBar = ({scrollToAboutMe, scrollToTechStack, scrollToProjects}) => {
 
