@@ -77,6 +77,8 @@
     font-size: 25px;
     justify-content: end;
     margin-right: 30px;
+    font-family: 'Playfair Display', serif; 
+
 }
 
 .links a, p{
