@@ -38,7 +38,7 @@ const MobileMentalHealthApp = () => {
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
                 >
-                <Box className="mobile-demo-modal">
+                <Box className="mobile-mental-demo-modal">
                    <video src="mind_mentor_demo.mp4" width="100%" height="100%" controls></video> 
                 </Box>
             </Modal> 
