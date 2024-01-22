@@ -29,9 +29,9 @@ I use the [React](https://react.dev/) library with [React Bootstrap](https://rea
 
 ✓ Group Projects
 
-× Solo Projects
+✓ Solo Projects
 
-× Contacts
+✓ Contacts
 
 ## Acknowledgements
 
