@@ -23,7 +23,7 @@
 }
 
 .animation {
-  margin-top: 8rem;
+  margin-top: 5rem;
   height:100%;
   overflow:hidden;
   margin-left: 3rem;
@@ -55,7 +55,6 @@
 .second div {
   /* background-color:#CD921E; */
   font-family: argent-cf;
-  margin-top: 1.8rem;
 }
 .third div {
   /* background-color:#c10528; */
