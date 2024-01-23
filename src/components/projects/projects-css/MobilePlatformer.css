@@ -1,109 +1,56 @@
-.overlay-pictures{
+.mobile-platformer-container{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.mobile-platformer-under-image{
     width: 100%;
-}
-
-.over-image{
-    transition: 1s;
-    margin: 20px;
-    width: 100%;
-    height: 55vh;
+    height: 300px;
     object-fit: cover;
-    position: relative;
-    z-index: 5;
-    object-position: 50% 50%;
+    object-position: 100% 0%;
+    margin-bottom: 10px;
 }
 
-.under-image{
-    transition: 1s;
-    margin: 20px;
-    width: 40%;
-    height: 55vh;
-    object-fit: cover;
-    position: absolute;
-    z-index: 4;
-    object-position: 0% 0%;
-}
-
-.platformer-container .over-image:hover{
-    opacity: 0;
-    transition: 0.4s;
-}
-
-.platformer-container{
-    position: relative;
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
-.platformer-container p{
-    font-size: 1.rem;
-    color: white;
-    padding-top: 50px;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-.platformer-container a{
+.mobile-platformer-container p{
+    font-size: 1rem;
     color: white;
 }
 
-.platformer-container a:hover{
-    color: black;
+.mobile-platformer-container a{
+    color: white;
 }
 
-.platformer-paragraph{
-    display: grid;
-    grid-template-rows: 1f 1f;
+.mobile-platformer-code-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.code-links{
-    text-align: end;
-}
-
-.code-links a{
-    margin: 50px;
-    font-size: 1.2rem;
+.mobile-platformer-code-links a{
+    font-size: 1rem;
     color: white;
     border: solid;
     background-color: inherit;
-    padding: 14px 28px;
+    padding: 10px 20px;
     cursor: pointer;
-    margin-bottom: 15px;
-}
-
-.code-links a:hover{
-    color: black;
-    background-color: white;
-    border-color: white;
     text-decoration: none;
-    transition: 0.5s;
+    display: grid;
 }
 
-.demo-button{
+.mobile-demo-button{
     color: white;
     background-color: inherit;
-    font-size: 1.2rem;
-    margin-right: 50px;
-    margin-left:50px;
+    font-size: 1rem;
     border: solid;
-    padding: 10px 28px;
-    cursor: pointer;
+    padding: 10px 20px;
 }
 
-.demo-button:hover{
-    color: black;
-    background-color: white;
-    border-color: white;
-    transition: 0.5s;
-    text-decoration: none;
-}
-
-.demo-modal{
+.mobile-platformer-demo-modal{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400;
+    width: 80%;
     border: '2px solid #000';
     z-index: 6;
 }

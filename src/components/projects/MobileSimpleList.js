@@ -17,17 +17,14 @@ const MobileSimpleList = () => {
 
     return (
         <div>
-            <div className='mobile-simple-list-container'>
-                <div className='mobile-overlay-pictures'>
-                    <img className='mobile-under-image' src="simple-list-screen.png"/>
-                    <img className='mobile-over-image' src="simple-list.png"/>
-                </div>
-                <div className='mobile-simple-list-paragraph'>
+            <div className='mobile-simple-container'>
+                <img className='mobile-simple-under-image' src="simple-list-screen.png"/>
+                <div className='mobile-simple-paragraph'>
                     <div className='mobile-paragraphs'>
                         <p>The motivation for this project came from the frustration of note taking apps that required internet which, at times, resulted in long syncing and loading times of information that was stored in the cloud. I wanted to create an app that was fast and easy to use for the simple purpose of listing anything down. This could be a shopping list, to do list or quick note keeping. Created with <a href="https://reactnative.dev/" target="_blank" rel="noopener noreferrer">React Native</a>, this app provides simple listing, through adding items that can be checked off or deleted. Items are stored locally on your device using AsyncStorage for quick and easy access.</p>
                         <p>Currently the app is going through internal testing via the Google Play Store as development continues before setting out a closed testing phase.</p>
                     </div>
-                    <div className='mobile-code-links'>
+                    <div className='mobile-simple-code-links'>
                         <a href="https://github.com/Kibiko/todo-list" target="_blank" rel="noopener noreferrer">CODE</a>
                         <button className="mobile-demo-button" onClick={handleOpenModal}>DEMO</button>
                     </div>

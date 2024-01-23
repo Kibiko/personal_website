@@ -1,9 +1,5 @@
 import { Tabs, Tab } from "react-bootstrap";
 import '../css/desktop-css/SoloProject.css'
-import YoutubeEmbed from "./YoutubeEmbed";
-import RestaurantRecommender from "./projects/RestaurantRecommender";
-import DynamicRouting from "./projects/DynamicRouting";
-import MentalHealthApp from "./projects/MentalHealthApp";
 import Platformer from "./projects/Platformer";
 import SimpleList from "./projects/SimpleList";
 
