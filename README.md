@@ -13,6 +13,10 @@ Welcome to the design of my website. This website is used to showcase my project
 
 I use the [React](https://react.dev/) library with [React Bootstrap](https://react-bootstrap.netlify.app/) and [Visual Studio Code](https://code.visualstudio.com/) as the IDE. 
 
+THE WEBSITE IS LIVE ON RENDER!
+
+[[Live Website]](https://kevin-chan.onrender.com/)
+
 ## Wireframe
 
 ![wireframe](/public/wireframe.png)
