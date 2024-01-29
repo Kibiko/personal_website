@@ -6,7 +6,7 @@ import SimpleList from "./projects/MobileSimpleList";
 const MobileSoloProjects = () => {
     return(
         <div className="mobile-solo-container">
-            <h1 className='mobile-solo-title'>Solo</h1>
+            <h1 className='mobile-solo-title'>Solo Projects</h1>
             <Tabs defaultActiveKey="platformer" className="tabs">
                 <Tab eventKey="platformer" title="2D Platformer" className="mobile-tab">
                     <Platformer/>

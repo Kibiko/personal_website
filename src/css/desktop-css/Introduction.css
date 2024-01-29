@@ -17,9 +17,7 @@
   /* text-transform: uppercase; */
   display: grid;
   align-items: center;
-  /* grid-template-rows: 30% 70%; */
-  grid-column-start: 3;
-  justify-content: center;
+  grid-column-start: 2;
 }
 
 .animation {

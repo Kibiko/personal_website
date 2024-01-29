@@ -5,18 +5,19 @@
 
 .custom-navbar{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     padding: 10px;
+    padding-top: 30px;
     padding-left: 30px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #28282B;
+    background-color: inherit;
     font-size: 16px;
-    position: fixed; 
+    /* position: fixed;  */
     top: 0;
-    z-index: 7;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+    z-index: 0;
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.5); */
 }
 
 .name-cv{
@@ -28,6 +29,7 @@
     margin-left: -20px;
     width: 80px;
     height: 80px;
+    z-index: 9;
 }
 
 .name-cv a{
@@ -42,7 +44,7 @@
     cursor:pointer;
     position:relative;
     padding:10px 20px;
-    background:#28282B;
+    background:inherit;
     font-size:28px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -131,39 +133,56 @@
     opacity: 1;
 }
 
-.contacts {
-  
-}
-  
-  /* Tooltip text */
-.contacts .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: rgba(20,20,20,1);
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    border-color: white;
-    border: solid;
-
-    /* Position the tooltip text - see examples below! */
+.contacts-modal{
     position: absolute;
-    width: 300px;
-    height: 65px;
-    top: 100%;
-    left: 50%;
-    margin-left: -200px; 
-    margin-top: 50px;
-    z-index: 1;
+    margin-top: 200px;
+    top: 0%;
+    left: 80%;
+    width: 307px;
+    transform: translate(-50%, -50%);
+    border: '2px solid #000';
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    background-color: inherit;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    &:after,&:before{
+        content:" ";
+        width:15px;
+        height:15px;
+        position:absolute;
+        border :0px solid white;
+    }
+    &:before{
+        content:" ";
+        top:0;
+        left:100%;
+        border-top:5px solid white;
+        border-right:5px solid white;
+    }
+    &:after{
+        content:" ";
+        bottom:0;
+        right:100%;
+        border-bottom:5px solid white;
+        border-left:5px solid white;
+    }
 }
-
-.contacts:hover .tooltiptext {
-    visibility: visible;
-}
-
-.tooltiptext ul{
-    font-size: 1rem;
+  
+.contacts-list{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 15px;
     font-family: 'Playfair Display', serif;
 }
-        
+ 
+.contacts-list a{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}

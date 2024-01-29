@@ -6,7 +6,7 @@ import SimpleList from "./projects/SimpleList";
 const SoloProjects = () => {
     return(
         <div className="solo-container">
-            <h1 className='solo-title'>Solo</h1>
+            <h1 className='solo-title'>Solo Projects</h1>
             <Tabs defaultActiveKey="platformer" className="tabs">
                 <Tab eventKey="platformer" title="2D Platformer" className="tab">
                     <Platformer/>

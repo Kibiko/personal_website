@@ -10,7 +10,7 @@ const MobileNavBar = () => {
 
     return(
         <div>
-            <div className="mobile-nav">
+            <header className="mobile-nav">
                 <button
                     className='mobile-nav-button'
                     onClick= {() => {setOpen(!open)}}
@@ -19,17 +19,16 @@ const MobileNavBar = () => {
                 >
                     <FaBars />
                 </button>
-            </div>
+            </header>
             <Collapse in={open}>
-                <div className='mobile-dropdown'>
+                <main className='mobile-dropdown'>
                     <a className="mobile-cv" href="Kevin_Chan_Resume.pdf" download><FaDownload/> CV</a>
                     <div className="mobile-dropdown-hr"></div>
                     <p>kevinjunchan@gmail.com</p>
                     <div className="mobile-dropdown-hr"></div>
                     <p>+447850018719</p>
                     <div className="mobile-dropdown-hr"></div>
-                </div>  
-                
+                </main>  
             </Collapse> 
         </div>
     )

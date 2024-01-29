@@ -4,10 +4,9 @@ import Introduction from '../components/Introduction';
 
 const IntroductionContainer = () => {
     return(
-        <div className="introduction-container">
-            <ProfileImage/>
+        <section className="introduction-container">
             <Introduction/>
-        </div>
+        </section>
     )
 }
 

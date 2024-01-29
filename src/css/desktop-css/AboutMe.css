@@ -2,18 +2,26 @@
     margin-top: 20px;
     margin-left: 100px;
     margin-bottom: 20px;
+    min-height: 400px;
 }
 
 #about-me{
     color: white;
     margin-bottom: 20px;
+    display: block;
 }
 
-.about-me-title{
+.about-me-quote{
     color: white;
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
+    font-style: italic;
+    text-align: center;
+}
+
+.about-me-profile{
+    width: 100%;
 }
 
 #about-me p{
@@ -22,8 +30,8 @@
 }
 
 .about-me-paragraph{
-    width: 50%;
     font-family: 'Poppins', sans-serif;
+    margin-right: 10%;
 }
 
 .button{

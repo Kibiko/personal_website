@@ -32,11 +32,10 @@ const HomepageContainer = () => {
 
     return (
         <div className="homepage">
-            <TopNavBar scrollToAboutMe={scrollToAboutMe} scrollToTechStack={scrollToTechStack} scrollToProjects={scrollToProjects}/>
             <SideNavBar/>
-            <div className="main-body">
+            <TopNavBar scrollToAboutMe={scrollToAboutMe} scrollToTechStack={scrollToTechStack} scrollToProjects={scrollToProjects}/>
+            <main className="main-body">
                 <IntroductionContainer/>
-                <div className="custom-hr"></div>
                 <AboutMe ref={aboutMeRef}/>
                 <div className="custom-hr"></div>
                 <TechStack ref={techStackRef}/>
@@ -44,7 +43,7 @@ const HomepageContainer = () => {
                 <h1 className='projects-title'>Projects</h1>
                 <GroupProjects/>
                 <SoloProjects/>
-            </div>
+            </main>
         </div>
     )
 }

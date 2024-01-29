@@ -4,57 +4,57 @@ import '../css/desktop-css/TechStack.css';
 
 const TechStack = forwardRef(({}, ref) => {
 
-    useEffect(() => {
-        const slider = document.querySelector('.items');
-        let isDown = false;
-        let startX;
-        let scrollLeft;
+    // useEffect(() => {
+    //     const slider = document.querySelector('.items');
+    //     let isDown = false;
+    //     let startX;
+    //     let scrollLeft;
 
-        const handleMouseDown = (e) => {
-            isDown = true;
-            slider.classList.add('active');
-            startX = e.pageX - slider.offsetLeft;
-            scrollLeft = slider.scrollLeft;
-        };
+    //     const handleMouseDown = (e) => {
+    //         isDown = true;
+    //         slider.classList.add('active');
+    //         startX = e.pageX - slider.offsetLeft;
+    //         scrollLeft = slider.scrollLeft;
+    //     };
 
-        const handleMouseLeave = () => {
-            isDown = false;
-            slider.classList.remove('active');
-        };
+    //     const handleMouseLeave = () => {
+    //         isDown = false;
+    //         slider.classList.remove('active');
+    //     };
 
-        const handleMouseUp = () => {
-            isDown = false;
-            slider.classList.remove('active');
-        };
+    //     const handleMouseUp = () => {
+    //         isDown = false;
+    //         slider.classList.remove('active');
+    //     };
 
-        const handleMouseMove = (e) => {
-            if (!isDown) return;
-            e.preventDefault();
-            const x = e.pageX - slider.offsetLeft;
-            const walk = (x - startX) * 2; //scroll-fast
-            slider.scrollLeft = scrollLeft - walk;
-            console.log(walk);
-        };
+    //     const handleMouseMove = (e) => {
+    //         if (!isDown) return;
+    //         e.preventDefault();
+    //         const x = e.pageX - slider.offsetLeft;
+    //         const walk = (x - startX) * 2; //scroll-fast
+    //         slider.scrollLeft = scrollLeft - walk;
+    //         console.log(walk);
+    //     };
 
-        slider.addEventListener('mousedown', handleMouseDown);
-        slider.addEventListener('mouseleave', handleMouseLeave);
-        slider.addEventListener('mouseup', handleMouseUp);
-        slider.addEventListener('mousemove', handleMouseMove);
+    //     slider.addEventListener('mousedown', handleMouseDown);
+    //     slider.addEventListener('mouseleave', handleMouseLeave);
+    //     slider.addEventListener('mouseup', handleMouseUp);
+    //     slider.addEventListener('mousemove', handleMouseMove);
 
-        // Cleanup the event listeners when the component unmounts
-        return () => {
-            slider.removeEventListener('mousedown', handleMouseDown);
-            slider.removeEventListener('mouseleave', handleMouseLeave);
-            slider.removeEventListener('mouseup', handleMouseUp);
-            slider.removeEventListener('mousemove', handleMouseMove);
-        };
-    }, []);
+    //     // Cleanup the event listeners when the component unmounts
+    //     return () => {
+    //         slider.removeEventListener('mousedown', handleMouseDown);
+    //         slider.removeEventListener('mouseleave', handleMouseLeave);
+    //         slider.removeEventListener('mouseup', handleMouseUp);
+    //         slider.removeEventListener('mousemove', handleMouseMove);
+    //     };
+    // }, []);
 
     return(
         <div className="tech-stack-container" ref={ref}>
             <h1 className='tech-header'>Tech Stack</h1>
-            <div className="grid-container">
-                <main className="grid-item">
+            {/* <div className="grid-container">
+                <main className="grid-item"> */}
                     <div className="items">
                         <div className="item item1"><img src='https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white'/></div>
                         <div className="item item2"><img src='https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E'/></div>
@@ -72,8 +72,8 @@ const TechStack = forwardRef(({}, ref) => {
                         <div className="item item13"><img src='https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white'/></div>
                         <div className="item item14"><img src='https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black'/></div>
                     </div>
-                </main>
-            </div>
+                {/* </main>
+            </div> */}
         </div>
     )
 })

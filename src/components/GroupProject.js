@@ -8,16 +8,16 @@ import MentalHealthApp from "./projects/MentalHealthApp";
 const GroupProjects = () => {
     return(
         <div className="group-container">
-            <h1 className='group-title'>Group</h1>
-            <Tabs defaultActiveKey="restaurant" className="tabs">
+            <h1 className='group-title'>Group Projects</h1>
+            <Tabs defaultActiveKey="mental health" className="tabs">
+                <Tab eventKey="mental health" title="AI Mental Health App" className="tab">
+                    <MentalHealthApp/>
+                </Tab>
                 <Tab eventKey="restaurant" title="Restaurant Recommender" className="tab">
                     <RestaurantRecommender/>
                 </Tab>
                 <Tab eventKey="dynamic routing" title="Dynamic Routing" className="tab">
                     <DynamicRouting/>
-                </Tab>
-                <Tab eventKey="mental health" title="AI Mental Health App" className="tab">
-                    <MentalHealthApp/>
                 </Tab>
             </Tabs>
         </div>

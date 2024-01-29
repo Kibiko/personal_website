@@ -10,14 +10,14 @@ function App() {
   return (
     <div className="background">
       <MediaQuery minWidth={1024}>
-        <div>
+        <screen>
           <HomepageContainer/>
-        </div>
+        </screen>
       </MediaQuery>
       <MediaQuery maxWidth={1023} >
-        <div className='mobile-site'>
+        <screen className='mobile-site'>
           <MobileContainer/>
-        </div>
+        </screen>
       </MediaQuery>
     </div>
   );
