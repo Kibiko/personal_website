@@ -43,7 +43,7 @@
     transition:all 1s;
 } 
 
-.animate-cv::after{
+.animate-cv:after{
     content:" ";
     width:10px;
     height:10px;
@@ -56,7 +56,7 @@
     border-left:5px solid white;
 }
 
-.animate-cv::before{
+.animate-cv:before{
     content:" ";
     width:10px;
     height:10px;
@@ -69,13 +69,9 @@
     border-right:5px solid white;
 }
 
-.animate-cv:hover ::after{
-    width:100%;
-    height:100%;
-}
-
-.animate-cv:hover ::before{
-    width:100%;
-    height:100%;
+.animate-cv:hover::before,
+.animate-cv:hover::after {
+    width: 100%;
+    height: 100%;
 }
 
