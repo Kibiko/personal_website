@@ -8,4 +8,5 @@
     height: 300px;
     position: relative;
     object-fit: cover;
+    filter: grayscale(100%);
 }

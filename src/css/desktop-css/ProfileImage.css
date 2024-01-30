@@ -11,6 +11,7 @@
     box-shadow: 4px 4px 20px 0 rgba(0,0,0,.5);
     float: left;
     margin-right: 50px;
-    border-style: solid;
+    /* border-style: solid; */
     object-position: 0% 50%;
+    filter: grayscale(100%);
 }
